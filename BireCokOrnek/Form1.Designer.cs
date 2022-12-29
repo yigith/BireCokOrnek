@@ -43,6 +43,8 @@
             // 
             // lstDepartmanlar
             // 
+            this.lstDepartmanlar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.lstDepartmanlar.DisplayMember = "Ad";
             this.lstDepartmanlar.FormattingEnabled = true;
             this.lstDepartmanlar.ItemHeight = 15;
@@ -65,6 +67,9 @@
             // 
             this.dgvCalisanlar.AllowUserToAddRows = false;
             this.dgvCalisanlar.AllowUserToDeleteRows = false;
+            this.dgvCalisanlar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvCalisanlar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCalisanlar.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvCalisanlar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -99,6 +104,7 @@
             // 
             // btnSil
             // 
+            this.btnSil.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSil.Location = new System.Drawing.Point(12, 397);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(66, 23);
@@ -109,6 +115,7 @@
             // 
             // btnCalisaniDuzenle
             // 
+            this.btnCalisaniDuzenle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCalisaniDuzenle.Location = new System.Drawing.Point(665, 397);
             this.btnCalisaniDuzenle.Name = "btnCalisaniDuzenle";
             this.btnCalisaniDuzenle.Size = new System.Drawing.Size(108, 23);
@@ -119,6 +126,7 @@
             // 
             // btnDuzenle
             // 
+            this.btnDuzenle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnDuzenle.Location = new System.Drawing.Point(94, 397);
             this.btnDuzenle.Name = "btnDuzenle";
             this.btnDuzenle.Size = new System.Drawing.Size(66, 23);
@@ -129,6 +137,7 @@
             // 
             // btnYeniCalisan
             // 
+            this.btnYeniCalisan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnYeniCalisan.Location = new System.Drawing.Point(748, 1);
             this.btnYeniCalisan.Name = "btnYeniCalisan";
             this.btnYeniCalisan.Size = new System.Drawing.Size(25, 23);
@@ -139,6 +148,7 @@
             // 
             // btnCalisaniSil
             // 
+            this.btnCalisaniSil.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCalisaniSil.Location = new System.Drawing.Point(563, 397);
             this.btnCalisaniSil.Name = "btnCalisaniSil";
             this.btnCalisaniSil.Size = new System.Drawing.Size(96, 23);
